@@ -1,0 +1,18 @@
+# Blender MTL File: 'Couch William 302.blend'
+# Material Count: 2
+
+newmtl Fabric_Couch
+
+
+
+
+newmtl Metal
+Ns 575.999996
+Ka 1.000000 1.000000 1.000000
+Kd 0.037410 0.037410 0.037410
+Ks 0.900000 0.900000 0.900000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+

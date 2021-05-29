@@ -1,0 +1,209 @@
+{
+	"asset": {
+		"generator": "VISUALIZEGLTF",
+		"version" : "2.0"
+	},
+	"scenes": [
+		{
+			"name": "Default",
+			"nodes": [
+				0]
+		}
+	],
+	"nodes": [
+		{
+			"children": [
+				1, 4, 5, 6
+			]
+			,"name": ""		}
+,
+		{
+			"children": [
+				2
+			]
+			,"matrix": [
+				0.001,					0,					0,					0,
+				0,					0.001,					0,					0,
+				0,					0,					0.001,					0,
+				0,					0.03135333,					0,					1
+			]
+			,"name": "stl"		}
+,
+		{
+			"children": [
+				3
+			]
+			,"name": "Root"		}
+,
+		{
+			"mesh": 0
+			,"name": "stl[1]"		}
+,
+		{
+			"matrix": [
+				0.7279986,					3.72529E-08,					-0.6855786,					0,
+				0.03726191,					0.998522,					0.03956753,					0,
+				0.6845653,					-0.05435107,					0.7269226,					0,
+				0.3587694,					0.0136149,					0.4106563,					1
+			]
+			,"camera": 0
+			,"name": "Default Camera"		}
+,
+		{
+			"name": "High Contrast Ramp"		}
+,
+		{
+			"name": "Studio Soft Grey 12"		}
+	],
+	"cameras": [
+		{
+			"type": "perspective",
+			"perspective" : {
+				"aspectRatio": 1.777778,
+				"yfov" : 0.2617994,
+				"zfar" : 100,
+				"znear" : 0.01
+			}
+		}
+	],
+	"meshes" : [
+		{
+			"primitives" : [
+				{
+					"attributes" : {
+					"POSITION" : 1
+					,"NORMAL" : 2
+					,"TEXCOORD_0" : 3
+					},
+					"indices" : 0,
+					"mode": 4,
+					"material" : 0
+				},
+				{
+					"attributes" : {
+					"POSITION" : 5
+					,"NORMAL" : 6
+					,"TEXCOORD_0" : 7
+					},
+					"indices" : 4,
+					"mode": 4,
+					"material" : 0
+				}
+			]
+		}
+	],
+	"accessors" : [
+			{
+				"bufferView": 3
+				,"byteOffset" : 0
+				,"componentType" : 5125
+				,"count" : 65535
+				,"type" : "SCALAR"
+			},
+			{
+				"bufferView": 0
+				,"byteOffset" : 0
+				,"componentType" : 5126
+				,"count" : 65535
+				,"type" : "VEC3"
+								,"min": [-27.85355,-28.6712551,-37.4015732]
+								,"max": [29.2763863,26.6138611,-19.3764324]
+			},
+			{
+				"bufferView": 1
+				,"byteOffset" : 0
+				,"componentType" : 5126
+				,"count" : 65535
+				,"type" : "VEC3"
+			},
+			{
+				"bufferView": 2
+				,"byteOffset" : 0
+				,"componentType" : 5126
+				,"count" : 65535
+				,"type" : "VEC2"
+			},
+			{
+				"bufferView": 3
+				,"byteOffset" : 262140
+				,"componentType" : 5125
+				,"count" : 42843
+				,"type" : "SCALAR"
+			},
+			{
+				"bufferView": 0
+				,"byteOffset" : 786420
+				,"componentType" : 5126
+				,"count" : 42843
+				,"type" : "VEC3"
+								,"min": [-33.4000282,-31.0533295,-35.3333435]
+								,"max": [36.4982834,38.3837204,46.5148773]
+			},
+			{
+				"bufferView": 1
+				,"byteOffset" : 786420
+				,"componentType" : 5126
+				,"count" : 42843
+				,"type" : "VEC3"
+			},
+			{
+				"bufferView": 2
+				,"byteOffset" : 524280
+				,"componentType" : 5126
+				,"count" : 42843
+				,"type" : "VEC2"
+			}
+	],
+	"materials": [
+			{
+				"name": "Default Material",
+				"emissiveFactor": [
+					0, 0, 0
+				]
+				,"pbrMetallicRoughness": {
+					"baseColorFactor": [
+						0.498039, 0.498039, 0.498039, 1
+					]
+					,"metallicFactor": 0
+					,"roughnessFactor": 1
+				}
+				,"alphaMode": "OPAQUE"
+				,"doubleSided": true
+			}
+	],
+	"bufferViews" : [
+			{
+				"buffer": 0
+				,"byteOffset" : 0
+				,"byteLength" : 1300536
+				,"byteStride" : 12
+				,"target" : 34962
+			},
+			{
+				"buffer": 0
+				,"byteOffset" : 1300536
+				,"byteLength" : 1300536
+				,"byteStride" : 12
+				,"target" : 34962
+			},
+			{
+				"buffer": 0
+				,"byteOffset" : 2601072
+				,"byteLength" : 867024
+				,"byteStride" : 8
+				,"target" : 34962
+			},
+			{
+				"buffer": 0
+				,"byteOffset" : 3468096
+				,"byteLength" : 433512
+				,"target" : 34963
+			}
+	],
+	"buffers" : [
+			{
+				"byteLength": 3901608
+				,"uri" : "chair1_0001.bin"
+			}
+	]
+}
